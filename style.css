@@ -1,0 +1,605 @@
+#popupBox {
+    background: rgb(0 0 0 / 70%);
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    top: 0;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+#popupBoxMsg {
+    width: 40%;
+    min-width: 300px;
+    height: auto;
+    min-height: 75px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 50px;
+    color: #d10505;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#popupBoxClose {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+
+nav li.nav-item a {
+    padding: 0px 20px;
+    font-weight: 600;
+}
+
+.logoContainer {
+    width: auto;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.linkMenu {
+    font-size: 16px;
+    line-height: 14px;
+    height: 17px;
+    color: #fff;
+    transition: all .15s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    margin-right: 20px!important;
+    font-weight: 600;
+}
+
+.btnMenu {
+    text-align: center;
+    border-radius: 4px;
+    background-color: #1da2b4;
+    color: #fff;
+    min-width: 51px;
+    padding: 0 18px;
+    height: 40px;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    margin-right: 15px!important;
+}
+
+.svgMenuIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    margin-right: 20px!important;
+    left: 99%;
+    margin-top: -50px;
+}
+
+.dropdown-hover>.dropdown-menu,
+.dropdown-hover>.dropdown-menu a {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dropdown-hover>.dropdown-menu a span {
+    background-color: #000;
+    color: #656e6f;
+    float: right;
+    width: 80%;
+    font-size: 12px;
+}
+
+.img-Menu {
+    float: left;
+    width: 50px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: auto !important;
+}
+
+.logoMain {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.list-group-flush>.list-group-item {
+    width: 300px;
+    padding: 20px;
+    border: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color: #ffffff;
+    color: #151617;
+    flex-shrink: 0;
+    border-bottom: 1px solid #e6e9eb;
+}
+
+.moreIcon path {
+    fill: #fff;
+}
+
+.sectionformWrapper {
+    position: relative;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 1 0%;
+    min-height: calc(100vh - 60px);
+}
+
+.formContainerMain {
+    display: flex;
+    flex-flow: row nowrap;
+    background: #fff;
+    border-radius: 12px;
+    max-width: none;
+}
+
+.formContainerMainSide {
+    width: 700px;
+    height: max-content;
+    padding: 50px 0px 0px 235px;
+    margin: 0px 0px 0px 70px;
+}
+
+.headingLogin {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    min-height: 34px;
+    color: #151617;
+    margin-bottom: 16px;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei;
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+form label,
+form .formWrapperLabel {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    color: #151617;
+    font-size: 14px;
+}
+
+::placeholder {
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+form .formWrapperInputDetailsMainInput {
+    height: 45px;
+    padding: 10px 12px;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 4px;
+    border: 1px solid #9aa3a3;
+    display: flex;
+    justify-content: SPACE-BETWEEN;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+.formWrapperInputDetailsPass {
+    margin-top: 30px !important;
+}
+
+form input,
+form input:focus,
+form input:target,
+form input:active {
+    border: 0px;
+    outline: 0px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.click_login_submit {
+    width: 70%;
+    box-shadow: none;
+    outline: none !important;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background: #7c6992;
+    margin-left: 40px;
+}
+
+.footerLoginLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 12px;
+    color: #1da2b4;
+}
+
+.footerLoginLinks span {
+    color: #000000 !important;
+    font-size: 14px;
+    padding-right: 360px;
+}
+
+.footerLoginLinks span {
+    color: #326ad5;
+    font-size: 14px;
+}
+
+.LoginFormOther {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 22px;
+    margin-top: 20px;
+}
+
+.LoginFormOtherText {
+    position: relative;
+    padding: 0 16px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #a7b2ba;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.LoginFormOther:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    background-color: #edf0f3;
+}
+
+.socialWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 95px;
+}
+
+.iconWrapper {
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: #eff1f1;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+}
+
+.dontHaveAccount {
+    font-size: 14px;
+    line-height: 24px;
+    color: #909898;
+    text-align: center;
+    padding-bottom: 32px;
+    padding-right: 300px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: -61px;
+}
+
+.formContainerMainSide {
+    width: 700px;
+    height: max-content;
+    padding: 50px 0px 0px 235px;
+    margin: 0px 0px 0px 70px;
+}
+
+.telegramWrapper {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    width: 480px;
+    margin-right: 64px;
+    margin-top: 16px;
+    box-sizing: border-box;
+    border: 1px solid #eff1f1;
+    border-radius: 4px;
+}
+
+.telegramTextLink {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 13px;
+    color: #0d0e0e;
+    padding-left: 14px;
+    font-weight: 500;
+}
+
+.telegramTextLink .Spanheading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d0e0e;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.dontHaveAccount span {
+    cursor: pointer;
+    margin-left: 15px;
+    color: #000000;
+}
+
+.socialText {
+    line-height: 16px;
+    font-size: 12px;
+    color: #78838c;
+    cursor: pointer;
+    text-align: center;
+}
+
+.formContainerSideQR {
+    width: 480px;
+    max-width: 100%;
+    margin-inline-start: 48px;
+    border-radius: 0 12px 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBgLeft {
+    width: 160%;
+    margin-right: 30px;
+}
+
+.menuTopHeading {
+    margin-left: 25px;
+}
+
+.qrLogin {
+    position: relative;
+    margin: 0 auto 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 48px;
+    gap: 10px;
+}
+
+.qrLogin img {
+    width: 140px;
+    height: 140px;
+}
+
+.qrLogin span.textQR {
+    margin-bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #151617;
+    font-weight: 400;
+    float: left;
+    width: 100%;
+}
+
+.sanQrSecText {
+    margin-bottom: 0;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    color: #78838c;
+}
+
+.sanQrSecText span {
+    color: #326ad5;
+}
+
+.btnDown {
+    background: transparent;
+    border: 1px solid #dde0e2;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .sectionformWrapper {
+        height: auto;
+        min-height: auto;
+    }
+    .formContainerMain {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .formContainerSideQR {
+        display: none;
+    }
+    .socialWrapper {
+        padding: 0px;
+    }
+}
+
+.d-flex {
+    display: contents!important;
+}
+
+.subheading {
+    font-size: Roboto, PingFang SC, -apple-system, BlinkMacSystemFont, Microsoft YaHei;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 3px;
+    min-height: 34px;
+    color: #707070;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+
+/* ------------------------------------ */
+
+
+/*==================================================================
+  [ Restyle Checkbox ]*/
+
+.input-checkbox100 {
+    display: none;
+}
+
+.label-checkbox100 {
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    color: #707070;
+    line-height: 1.4;
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.label-checkbox100::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: transparent;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background: #fff;
+    border: 2px solid #707070;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.input-checkbox100:checked+.label-checkbox100::before {
+    color: #6675df;
+}
+
+
+/*------------------------------------------------------------------
+  [ Button ]*/
+
+
+/* ------------------------------------ */
+
+img.trulogo {
+    width: 35%;
+    margin: 0px 90px 0px 90px;
+}
+
+a.forgot {
+    font-size: 20px;
+    color: #afabc9;
+    margin-left: 42px;
+}
+
+a.reset {
+    font-size: 20px;
+    color: #afabc9;
+    margin-left: 42px;
+}
+
+p.userId {
+    font-size: 20px;
+    color: #afabc9;
+    margin-left: 42px;
+}
+
+a.register {
+    font-size: 20px;
+    color: #afabc9;
+    margin-left: 42px;
+}
+
+.fuirp {
+    margin-top: 40px;
+}
+
+.uirn {
+    margin-top: 50px;
+}
